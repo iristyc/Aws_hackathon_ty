@@ -1,17 +1,23 @@
 # AWS Hackathon Chatbot Frontend
 
 ## 使用技術
-前端：React + Tailwind CSS
-驗證：AWS Cognito
-API：AWS AppSync (GraphQL)
-資料庫：AWS DynamoDB
-雲端設定：AWS Amplify
+前端：React + Tailwind CSS <br>
+驗證：AWS Cognito <br>
+API：AWS AppSync (GraphQL) <br>
+資料庫：AWS DynamoDB <br>
+雲端設定：AWS Amplify <br>
 
 
 
 
 ## 專案結構
-aws_hackathon/ ├── amplify-config.js # AWS Amplify 設定檔，連接 Cognito、AppSync、S3 等服務 ├── App.jsx # 應用主入口，負責整體畫面結構與狀態管理 ├── AuthProvider.jsx # 包裝 Cognito 驗證流程，處理登入、登出 ├── ChatList.jsx # 左側對話清單，列出用戶的所有對話 ├── ChatWindow.jsx # 右側聊天視窗，顯示選中的對話並支援發送訊息
+aws_hackathon/  
+├── amplify-config.js    # AWS Amplify 設定檔，連接 Cognito、AppSync、S3 等服務  
+├── App.jsx              # 應用主入口，負責整體畫面結構與狀態管理  
+├── AuthProvider.jsx     # 包裝 Cognito 驗證流程，處理登入、登出  
+├── ChatList.jsx         # 左側對話清單，列出用戶的所有對話  
+├── ChatWindow.jsx       # 右側聊天視窗，顯示選中的對話並支援發送訊息  
+
 
 
 ## 功能簡介
@@ -24,8 +30,6 @@ aws_hackathon/ ├── amplify-config.js # AWS Amplify 設定檔，連接 Cogn
 
 
 ```bash
-   git clone https://your-repo-url.git
-   cd aws_hackathon
 
 npm install //設定 AWS Amplify
 
